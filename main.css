@@ -95,12 +95,19 @@ margin-right: auto;
 .H2 {
     font-size: 32px;
     font-weight: 300px;
-    color: 
+    color: var(--text-color)
 }
+
 .H4 {
     font-size: 24px;
     color: var(--heading-color);
     font-weight: 600;
+}
+
+.H5 {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--heading-color);
 }
 
 .M {
@@ -121,8 +128,25 @@ margin-right: auto;
     max-width: 1296px;
     margin-left: auto;
     margin-right: auto;
+    
 
 }
+
+#grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 2rem;
+    margin-top: 40px;
+}
+
+.grid-item {
+
+    
+    
+}
+
+
 
 /* How does it work - section */
 
@@ -150,7 +174,7 @@ margin-right: auto;
 }
 
 
-/* Features - section  */
+/* Features - section VALFRI! FÖR VG. AVVAKTA */
 
 #features {
     display: flex;
@@ -165,13 +189,15 @@ margin-right: auto;
 }
 
 #features-wrapper1 {
-    background-color: aqua;
+   
 
 }
 
 #features-wrapper2 {
 
-    background-color: bisque;
+ 
     
 }
 
+
+/*  */
